@@ -4,7 +4,7 @@ import './App.css';
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom"
 
 import Menu from './componentes/Menu/Menu';
-
+import Inicio from './componentes/Inicio/Inicio';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <div className='p-lg-0 p-4 '></div>
 
         <Routes>
-      
+          <Route path="/" element={<Inicio />}/> 
         </Routes>
       </Router>
 
