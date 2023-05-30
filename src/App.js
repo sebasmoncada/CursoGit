@@ -7,7 +7,6 @@ import Menu from './componentes/Menu/Menu';
 import Inicio from './componentes/Inicio/Inicio';
 import QuienesSomos from './componentes/QuienesSomos/QuienesSomos';
 import Pagos from './componentes/Pagos/Pagos';
-import ModelosTop from './componentes/ModelosTop/ModelosTop';
 import Inscripcion from './componentes/Inscripcion/Inscripcion';
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Inicio />}/> 
-          <Route path="/Modelos" element={<ModelosTop />}/> 
           <Route path="/Qsomos" element={<QuienesSomos />}/> 
           <Route path="/pagos" element={<Pagos />}/> 
           <Route path="/Inscripcion" element={<Inscripcion />}/> 
